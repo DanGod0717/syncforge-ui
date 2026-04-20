@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/你的仓库名/', // 如果仓库是 username.github.io 就写 '/'
+  base: '/syncforge-ui/',
   server: {
     port: 5173,
     proxy: {
